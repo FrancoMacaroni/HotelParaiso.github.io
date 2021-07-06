@@ -1,0 +1,125 @@
+@import '../base/variables';
+
+  body{
+    background-color: rgba(248, 232, 232, 0.644);
+  }
+
+  .contenedor-qs{
+    margin-top: 80px;
+  }
+
+   .portada {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    top: 57px;
+  } 
+
+  .portada .contenedor {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .portada h1 {
+    font-size: 30px;
+  }
+  .portada h2 {
+    font-size: 20px;
+  }
+
+.titulo-section-act{
+  font-size: 25px;
+  font-family: $estiloDos;
+  animation: bounce;
+  animation-duration: 3s;
+}
+
+.descripcion-act{
+  font-size: 18px;
+  font-family: $estiloUno;
+}
+
+
+.tituloportada, .subtituloportada{
+  animation: backInDown;
+  animation-duration: 3s;
+}
+
+/* footer */
+footer{
+  h2{
+    font-family: $estiloUno;
+    font-size: 30px;
+  }
+  h3{
+    font-family: $estiloUno;
+    font-size: 20px;
+  }
+}
+
+.link-footer{
+  font-size: 18px;
+  font-family: $estiloUno;
+
+  li{
+    padding: 3px;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  i{
+    margin-right: 5px;
+  }
+}
+
+
+/* exp */
+
+
+.card-exp {
+  display: inline-flex;
+  margin: 15px auto;
+  width: 430px;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 11px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+  box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.mensaje {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  line-height: 1.5rem;
+  font-family: $estiloUno;
+}
+
+
+.profile {
+  margin-top: 16px;
+  margin-left: 11px
+}
+
+.profile-pic {
+  width: 58px;
+}
+
+.cust-name {
+  font-size: 18px
+}
+
+.cust-profession {
+  font-size: 10px
+}
+
+
+

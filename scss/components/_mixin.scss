@@ -1,0 +1,28 @@
+//mixin//
+@import '../base/variables';
+
+@mixin redessociales ($color){
+    margin: 10px;
+    border-radius: 20px;
+    background-color: $color;
+}
+
+.facebook{
+    @include redessociales(#3b5998);
+}
+
+.twitter{
+    @include redessociales(#55acee);
+}
+
+.google{
+    @include redessociales(#dd4b39);
+}
+
+.instagram{
+    @include redessociales(#ac2bac);
+}
+
+.youtube{
+    @include redessociales(#f82222);
+}

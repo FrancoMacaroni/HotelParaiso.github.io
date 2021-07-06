@@ -1,0 +1,78 @@
+@import '../base/variables';
+
+// IMAGEN INDEX //
+@media (min-width: 768px) {
+    .portada .contenedor h1 {
+      font-size: 50px;
+    }
+    .portada .contenedor h2 {
+      font-size: 25px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .portada .contenedor h1 {
+      font-size: 70px;
+    }
+    .portada .contenedor h2 {
+      font-size: 35px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .portada .contenedor h1 {
+      font-size: 85px;
+    }
+    .portada .contenedor h2 {
+      font-size: 35px;
+    }
+  }
+
+
+
+  // SPA//
+  @media (min-width: 300px) {
+    .subtituloportadaspa{
+      font-size: 15px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .subtituloportadaspa{
+      font-size: 25px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .subtituloportadaspa{
+      font-size: 35px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .subtituloportadaspa{
+      font-size: 45px;
+    }
+  }
+
+//Titulo habitaciones//
+
+@media (min-width: 300px) {
+  .titulo-habitaciones h1{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .titulo-habitaciones h1{
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .titulo-habitaciones h1{
+    font-size: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .titulo-habitaciones h1{
+    font-size: 70px;
+  }
+}

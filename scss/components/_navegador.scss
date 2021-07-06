@@ -1,0 +1,16 @@
+@import '../base/variables';
+
+.navegador{
+    background-color: nth($colores , 1 );
+    font-family: $estiloUno;
+}
+
+.item-navegador ul li{
+    padding: 0 40px;
+    font-size: 18px;
+}
+
+.item-navegador ul li:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
